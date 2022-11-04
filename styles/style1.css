@@ -1,0 +1,177 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+    background-color:rgb(107, 100, 100);
+}
+.main_wrapper{
+    width: 1300px;
+    height: auto;
+    background: #000;
+    margin: auto;
+}
+.header_wrapper{
+    width: 1300px;
+    height: 100px;
+    margin: auto;
+}
+.header_wrapper img{
+    width: 640px;
+    height: 100px;
+    margin: auto;
+}
+#logo{float: left;}
+#banner{float: right;}
+
+.content_wrapper{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    background: rgb(44, 1, 183);
+    
+}
+#content_area{
+    width: 1100px;
+    height: 800px;
+    float:right;
+    background: rgb(0, 219, 62);
+}
+#sidebar{
+    width: 200px;
+    height: auto;
+    background: rgb(0, 0, 0);
+    float: left;
+}
+#footer{
+    width: 1300px;
+    height:auto;
+    background: rgb(20, 248, 17);
+    clear: both;
+}
+.menubar{
+    width: 1300px;
+    height:50px;
+    color: rgb(253, 255, 240);
+    background: rgb(22, 227, 200);
+   
+}
+
+
+#menu{
+padding: 0;
+margin: 0;
+line-height: 40px;
+float: left; 
+
+}
+#menu li{
+    list-style: none;
+    display: inline;
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 14px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: COMIC SANS MS;
+}
+#menu a:hover{
+    color: black;
+    font-weight: bolder;
+}
+#form{
+    float: right;
+    line-height: 40px;
+    padding-right: 80px;
+}
+#form input{
+height: 24px;   
+}
+#slidebar_title{
+    background: white;
+    color: black;
+    font-size: 18px;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cats{
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+}
+#cats li{
+    list-style: none;
+    padding-top: 10px;
+    font-size: 18px;
+}
+#cats a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+}
+#cats a:hover{
+    text-decoration: underline;
+    color: rgb(34, 255, 0);
+   font-weight: bolder;
+}
+
+#product_box{
+    width:1200px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    
+}
+#single_product{
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    border: 3px  #fff solid;
+    background: rgb(0, 149, 255);
+}
+#shopping_cart{
+    width:1100px;
+    height: 50px;
+    background: rgb(255, 171, 3);
+    color: #fff;
+}
+
+
+/* footer */
+
+/* #footer{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 400px;
+    background: rgb(76, 35, 197);
+} */
